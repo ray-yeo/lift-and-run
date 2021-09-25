@@ -13,7 +13,7 @@ struct lift_and_runApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeTabView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

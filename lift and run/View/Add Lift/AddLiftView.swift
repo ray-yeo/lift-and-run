@@ -8,6 +8,10 @@
 import SwiftUI
 
 struct AddLiftView: View {
+    
+    // Tab selection
+    @Binding var tabSelection: Int
+    
     @Environment(\.managedObjectContext) private var viewContext
     
     @State private var name = ""
@@ -18,21 +22,43 @@ struct AddLiftView: View {
     var body: some View {
         VStack{
             HStack{
-                Button("Clear"){
+                Button("Clear/Back"){
                     clear()
+                    tabSelection = Constants.liftsTab
                 }
                 Spacer()
                 Button("Add"){
                     addLift()
                     clear()
+                    tabSelection = Constants.liftsTab
+                }
+            }
+            ScrollView {
+                
+                VStack{
+                    
+                    Group{
+                        HStack {
+                            Text("Name: ").bold()
+                            TextField("Bench Press", text:$name)
+                        }
+                        HStack {
+                            Text("Sets: ").bold()
+                            TextField("3", text:$sets)
+                        }
+                        HStack {
+                            Text("Reps: ").bold()
+                            TextField("10", text:$reps)
+                        }
+                        HStack {
+                            Text("Weight: ").bold()
+                            TextField("135", text:$weight)
+                        }
+                    }
                 }
             }
         }
-        ScrollView {
-            VStack{
-                AddLiftMetaData(name: $name, sets: $sets, reps: $reps, weight: $weight)
-            }
-        }
+        
     }
     
     private func clear() {
@@ -65,6 +91,6 @@ struct AddLiftView: View {
 
 struct AddLiftView_Previews: PreviewProvider {
     static var previews: some View {
-        AddLiftView()
+        AddLiftView(tabSelection:Binding.constant(Constants.addLiftsTab))
     }
 }

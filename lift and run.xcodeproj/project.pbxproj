@@ -7,23 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		714AD89526FEA00C0029059F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714AD89426FEA00C0029059F /* Constants.swift */; };
+		714AD89B26FEA09D0029059F /* LiftsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714AD89A26FEA09D0029059F /* LiftsView.swift */; };
+		716C91E026FEA2BD0028473C /* HomeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716C91DF26FEA2BD0028473C /* HomeTabView.swift */; };
 		71BB150226F6D60700EB48DB /* lift_and_runApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BB150126F6D60700EB48DB /* lift_and_runApp.swift */; };
-		71BB150426F6D60700EB48DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BB150326F6D60700EB48DB /* ContentView.swift */; };
 		71BB150626F6D60A00EB48DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71BB150526F6D60A00EB48DB /* Assets.xcassets */; };
 		71BB150926F6D60A00EB48DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71BB150826F6D60A00EB48DB /* Preview Assets.xcassets */; };
 		71BB150B26F6D60A00EB48DB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BB150A26F6D60A00EB48DB /* Persistence.swift */; };
 		71BB150E26F6D60A00EB48DB /* lift_and_run.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 71BB150C26F6D60A00EB48DB /* lift_and_run.xcdatamodeld */; };
 		71BB151726F6D69200EB48DB /* Lifts+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BB151526F6D69200EB48DB /* Lifts+CoreDataClass.swift */; };
 		71BB151826F6D69200EB48DB /* Lifts+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BB151626F6D69200EB48DB /* Lifts+CoreDataProperties.swift */; };
-		71BB153D26F6DC3A00EB48DB /* AddLiftMetaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BB153C26F6DC3A00EB48DB /* AddLiftMetaData.swift */; };
 		71BB153F26F6DDF200EB48DB /* AddLiftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BB153E26F6DDF200EB48DB /* AddLiftView.swift */; };
 		71BB154426F6E79200EB48DB /* LiftDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BB154326F6E79200EB48DB /* LiftDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		714AD89426FEA00C0029059F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		714AD89A26FEA09D0029059F /* LiftsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiftsView.swift; sourceTree = "<group>"; };
+		716C91DF26FEA2BD0028473C /* HomeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabView.swift; sourceTree = "<group>"; };
 		71BB14FE26F6D60700EB48DB /* lift and run.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lift and run.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71BB150126F6D60700EB48DB /* lift_and_runApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lift_and_runApp.swift; sourceTree = "<group>"; };
-		71BB150326F6D60700EB48DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		71BB150526F6D60A00EB48DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71BB150826F6D60A00EB48DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		71BB150A26F6D60A00EB48DB /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -31,7 +34,6 @@
 		71BB150F26F6D60A00EB48DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71BB151526F6D69200EB48DB /* Lifts+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lifts+CoreDataClass.swift"; sourceTree = "<group>"; };
 		71BB151626F6D69200EB48DB /* Lifts+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lifts+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		71BB153C26F6DC3A00EB48DB /* AddLiftMetaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLiftMetaData.swift; sourceTree = "<group>"; };
 		71BB153E26F6DDF200EB48DB /* AddLiftView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLiftView.swift; sourceTree = "<group>"; };
 		71BB154326F6E79200EB48DB /* LiftDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiftDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -47,6 +49,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		714AD89326FE9BD70029059F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				716C91E126FEA4E70028473C /* Add Lift */,
+				714AD89A26FEA09D0029059F /* LiftsView.swift */,
+				71BB154326F6E79200EB48DB /* LiftDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		716C91E126FEA4E70028473C /* Add Lift */ = {
+			isa = PBXGroup;
+			children = (
+				71BB153E26F6DDF200EB48DB /* AddLiftView.swift */,
+			);
+			path = "Add Lift";
+			sourceTree = "<group>";
+		};
 		71BB14F526F6D60700EB48DB = {
 			isa = PBXGroup;
 			children = (
@@ -67,10 +87,9 @@
 			isa = PBXGroup;
 			children = (
 				71BB150126F6D60700EB48DB /* lift_and_runApp.swift */,
-				71BB154326F6E79200EB48DB /* LiftDetailView.swift */,
-				71BB150326F6D60700EB48DB /* ContentView.swift */,
-				71BB153C26F6DC3A00EB48DB /* AddLiftMetaData.swift */,
-				71BB153E26F6DDF200EB48DB /* AddLiftView.swift */,
+				716C91DF26FEA2BD0028473C /* HomeTabView.swift */,
+				714AD89426FEA00C0029059F /* Constants.swift */,
+				714AD89326FE9BD70029059F /* View */,
 				71BB150F26F6D60A00EB48DB /* Info.plist */,
 				71BB151926F6D83D00EB48DB /* Data */,
 				71BB150526F6D60A00EB48DB /* Assets.xcassets */,
@@ -168,14 +187,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				71BB150B26F6D60A00EB48DB /* Persistence.swift in Sources */,
-				71BB153D26F6DC3A00EB48DB /* AddLiftMetaData.swift in Sources */,
-				71BB150426F6D60700EB48DB /* ContentView.swift in Sources */,
+				716C91E026FEA2BD0028473C /* HomeTabView.swift in Sources */,
 				71BB151826F6D69200EB48DB /* Lifts+CoreDataProperties.swift in Sources */,
 				71BB150E26F6D60A00EB48DB /* lift_and_run.xcdatamodeld in Sources */,
+				714AD89526FEA00C0029059F /* Constants.swift in Sources */,
 				71BB151726F6D69200EB48DB /* Lifts+CoreDataClass.swift in Sources */,
 				71BB150226F6D60700EB48DB /* lift_and_runApp.swift in Sources */,
 				71BB153F26F6DDF200EB48DB /* AddLiftView.swift in Sources */,
 				71BB154426F6E79200EB48DB /* LiftDetailView.swift in Sources */,
+				714AD89B26FEA09D0029059F /* LiftsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
